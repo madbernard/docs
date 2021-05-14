@@ -55,6 +55,10 @@ You can clone the repository to your computer with the provided URL:
 ```shell
 $ git clone https://github.com/<em>YOUR_USERNAME</em>/<em>YOUR_REPOSITORY</em>.wiki.git
 # Clones the wiki locally
+# or
+$ git clone git@<em>YOUR_USERNAME</em>:<em>YOUR_REPOSITORY</em>.wiki.git
+# to clone with SSH
+# basically, do the same thing you would do to clone your repo, but use <em>.wiki.git</em> at the end instead of just <em>.git</em>
 ```
 
 Once you have cloned the wiki, you can add new files, edit existing ones, and commit your changes. You and your collaborators can create branches when working on wikis, but only changes pushed to the default branch will be made live and available to your readers.
